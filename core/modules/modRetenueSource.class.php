@@ -14,6 +14,7 @@ class modRetenueSource extends DolibarrModules
         $this->version = '1.0';
         $this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
         $this->picto = 'fas fa-hand-holding-usd';
+		$this->editor_name = 'Youssef Fellah';
 
         // On active les triggers et on charge notre fichier JS
         $this->module_parts = array(
